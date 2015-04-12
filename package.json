@@ -8,11 +8,11 @@
     "url": "http://github.com/dagiff7/resume"
   },
   "scripts": {
-    "start": "resume serve"
+    "start": "node app.js"
   },
   "dependencies": {
     "handlebars": "^2.0.0-alpha.4",
-    "resume-cli": "*"
+    "serve-static": "*"
   },
   "license": "MIT"
 }

@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "handlebars": "^2.0.0-alpha.4",
-    "serve-static": "*"
+    "serve-static": "*",
+    "finalhandler": "*"
   },
   "license": "MIT"
 }

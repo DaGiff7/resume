@@ -1,17 +1,18 @@
 {
-  "name": "jsonresume-theme-flat",
-  "version": "0.3.7",
-  "description": "A theme for JSON Resume",
-  "author": "Mattias Erming",
+  "name": "david-gifford-jr-resume",
+  "version": "0.0.0",
+  "description": "My Resume, in JSON",
+  "author": "David A Gifford Jr",
   "repository": {
     "type": "git",
-    "url": "http://github.com/erming/jsonresume-theme-flat"
+    "url": "http://github.com/dagiff7/resume"
   },
   "scripts": {
     "start": "resume serve"
   },
   "dependencies": {
-    "handlebars": "^2.0.0-alpha.4"
+    "handlebars": "^2.0.0-alpha.4",
+    "resume-cli": "*"
   },
   "license": "MIT"
 }

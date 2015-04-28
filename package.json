@@ -5,7 +5,7 @@
   "author": "David A Gifford Jr",
   "repository": {
     "type": "git",
-    "url": "http://github.com/dagiff7/resume"
+    "url": "http://github.com/DavidGiffordJr/resume"
   },
   "scripts": {
     "start": "node app.js"

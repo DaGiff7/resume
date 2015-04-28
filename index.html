@@ -1,508 +1,509 @@
 <!doctype html>
 <html>
-	<head>
-	
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
-	
-	<title>David A. Gifford Jr.</title>
-	
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
-	
-	<style type="text/css">
-	@import url(
-	https://fonts.googleapis.com/css?family=Lato:400,700
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+
+    <title>David A. Gifford Jr.</title>
+
+    <style>
+            @import url(
+https://fonts.googleapis.com/css?family=Lato:400,700
 );
 body {
-	background: #fff;
-	font-family: Lato, sans-serif;
-	margin: 0 0 80px;
+    background: #fff;
+    font-family: Lato, sans-serif;
+    margin: 0 0 80px;
 }
 a {
-	color: #2ecc71;
+    color: #2ecc71;
 }
 a:focus,
 a:hover {
-	color: #f1c40f;
-	text-decoration: none;
+    color: #f1c40f;
+    text-decoration: none;
 }
 p {
-	line-height: 1.5;
-	margin: 0;
+    line-height: 1.5;
+    margin: 0;
 }
 p + p {
-	margin-top: 10px;
+    margin-top: 10px;
 }
 h1,
 h2,
 h3,
 h4 {
-	margin-top: 0
+    margin-top: 0
 }
 section {
-	margin-top: 30px;
+    margin-top: 30px;
 }
 li {
-	line-height: 1.8;
-	list-style: none;
+    line-height: 1.8;
+    list-style: none;
 }
 li:before {
-	content: "\f052";
-	float: left;
-	font: 13px Octicons;
-	margin-top: 6px;
-	margin-left: -20px;
-	opacity: .1;
-	position: absolute;
+    content: "\f052";
+    float: left;
+    font: 13px Octicons;
+    margin-top: 6px;
+    margin-left: -20px;
+    opacity: .1;
+    position: absolute;
 }
 blockquote {
-	border-left: 5px solid #e7e9ec;
-	font-size: 14px;
+    border-left: 5px solid #e7e9ec;
+    font-size: 14px;
 }
 em {
-	color: #95a5a6;
-	font-weight: normal;
-	font-style: normal;
+    color: #95a5a6;
+    font-weight: normal;
+    font-style: normal;
 }
 h4 span:first-child {
-	color: #000;
-	font-weight: bold;
+    color: #000;
+    font-weight: bold;
 }
 .container {
-	max-width: 750px;
-	padding: 0 30px;
+    max-width: 750px;
+    padding: 0 30px;
 }
 .col-sm-6 {
-	margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 .col-sm-12 h4 {
-	margin-top: 12px; 
+    margin-top: 12px;
 }
 .col-sm-12 + .col-sm-12 {
-	margin-top: 30px;
+    margin-top: 30px;
 }
 #header {
-	background: #f4f6f6;
-	padding: 50px 0;
-	margin-bottom: 30px;
+    background: #f4f6f6;
+    padding: 50px 0;
+    margin-bottom: 30px;
 }
 #header h2 {
-	color: #95a5a6;
-	font-size: 24px;
+    color: #95a5a6;
+    font-size: 24px;
 }
 #content h3 {
-	color: #f1c40f;
-	font-size: 26px;
-	margin-top: -4px;
+    color: #f1c40f;
+    font-size: 26px;
+    margin-top: -4px;
 }
 #content aside {
-	text-align: right;
-	padding-right: 30px;
+    text-align: right;
+    padding-right: 30px;
 }
 #profiles .network {
-	text-transform: capitalize;
+    text-transform: capitalize;
 }
 #work .position,
 #volunteer .position {
-	font-weight: bold;
-	margin-bottom: 8px;
+    font-weight: bold;
+    margin-bottom: 8px;
 }
 #education .area {
-	font-weight: bold;
+    font-weight: bold;
 }
 #education .area:before {
-	content: "\f0d7";
-	font: 16px Octicons;
-	margin-right: 6px;
+    content: "\f0d7";
+    font: 16px Octicons;
+    margin-right: 6px;
 }
 #education .studyType {
-	margin-left: 25px;
+    margin-left: 25px;
 }
 #awards .summary,
 #publications .summary {
-	margin-top: 8px;
+    margin-top: 8px;
 }
 #publications .website a:before {
-	content: attr(href);
+    content: attr(href);
 }
 
 @media (min-width: 480px) {
-	.strike-through {
-		border-top: 1px solid #f4f6f6;
-		height: 20px;
-		margin-top: 12px;
-		margin-bottom: -2px;
-		position: relative;
-	}
-	.strike-through span,
-	.strike-through a {
-		background: #fff;
-		position: absolute;
-	}
-	.strike-through span:first-child {
-		padding-right: 20px;
-		margin-top: -12px;
-	}
-	.strike-through span + span {
-		font-size: 14px;
-		margin-top: -10px;
-		padding-left: 20px;
-		right: 0;
-	}
+    .strike-through {
+        border-top: 1px solid #f4f6f6;
+        height: 20px;
+        margin-top: 12px;
+        margin-bottom: -2px;
+        position: relative;
+    }
+    .strike-through span,
+    .strike-through a {
+        background: #fff;
+        position: absolute;
+    }
+    .strike-through span:first-child {
+        padding-right: 20px;
+        margin-top: -12px;
+    }
+    .strike-through span + span {
+        font-size: 14px;
+        margin-top: -10px;
+        padding-left: 20px;
+        right: 0;
+    }
 }
 @media (max-width: 768px) {
-	.col-sm-6:last-child {
-		margin-bottom: 0px;
-	}
-	#content aside {
-		margin-bottom: 20px;
-		padding-right: 0;
-		text-align: left;
-	}
-	#publications .website a:before {
-		content: "View publication";
-	}
+    .col-sm-6:last-child {
+        margin-bottom: 0px;
+    }
+    #content aside {
+        margin-bottom: 20px;
+        padding-right: 0;
+        text-align: left;
+    }
+    #publications .website a:before {
+        content: "View publication";
+    }
 }
 @media (max-width: 480px) {
-	h1 {
-		font-size: 26px;
-	}
-	.date {
-		font-size: 14px;
-		margin-bottom: 5px;
-	}
-	.strike-through span:first-child {
-		margin-bottom: 7px;
-	}
-	.strike-through span {
-		display: block;
-	}	
-	#header {
-		margin-bottom: 10px;
-		padding: 40px 0;
-	}
-	#actions {
-		display: none;
-	}
+    h1 {
+        font-size: 26px;
+    }
+    .date {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .strike-through span:first-child {
+        margin-bottom: 7px;
+    }
+    .strike-through span {
+        display: block;
+    }
+    #header {
+        margin-bottom: 10px;
+        padding: 40px 0;
+    }
+    #actions {
+        display: none;
+    }
 }
+    </style>
 
-	</style>
-	
-	</head>
-	<body>
-	
-	<header id="header">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-9 col-sm-push-3">
-					<h1>
-						David A. Gifford Jr.
-					</h1>
-					<h2>
-						Software Engineer
-					</h2>
-				</div>
-			</div>
-		</div>
-	</header>
-	<div id="content" class="container">
+</head>
+<body>
 
-	<section id="contact" class="row">
-		<aside class="col-sm-3">
-			<h3>Contact</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-6">
-				<strong>Email</strong>
-				<div class="email"><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="c3a7a2b5aaa7eda4aaa5a5acb1a7eda9b183a4aea2aaafeda0acae">[email&#160;protected]</a><script cf-hash='f9e31' type="text/javascript">
-/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("cf-hash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}}}catch(u){}}();/* ]]> */</script></div>
-			</div>
-			<div class="col-sm-6">
-				<strong>Phone</strong>
-				<div class="phone">(912) 555-4321</div>
-			</div>
-			<div class="col-sm-6">
-				<strong>Website</strong>
-				<div class="website">
-					<a href="http://richardhendricks.com">http://richardhendricks.com</a>
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
-	<section id="about" class="row">
-		<aside class="col-sm-3">
-			<h3>About</h3>
-		</aside>
-		<div class="col-sm-9">
-			<p>Software engineer with a passion for leaning new ways to make products better.</p>
-		</div>
-	</section>
-	<section id="profiles" class="row">
-		<aside class="col-sm-3">
-			<h3>Profiles</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-				<div class="col-sm-6">
-					<strong class="network">
-						Twitter
-					</strong>
-					<div class="username">
-						<div class="url">
-							<a href="https://twitter.com/DavidGiffordJr">DavidGiffordJr</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-6">
-					<strong class="network">
-						SoundCloud
-					</strong>
-					<div class="username">
-						<div class="url">
-							<a href="https://soundcloud.com/dandymusicnl">dandymusicnl</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+<div id="resume">
 
-	<section id="work" class="row">
-		<aside class="col-sm-3">
-			<h3>Work</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Pied Piper</span>
-					<span class="date">
-						2013-12-01 — 2014-12-01
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href="http://piedpiper.com">http://piedpiper.com</a>
-				</div>
-				<div class="position">
-					CEO/President
-				</div>
-				<div class="summary">
-					<p>Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.</p>
-				</div>
-				<h4>Highlights</h4>
-				<ul class="highlights">
-					<li class="bullet">Build an algorithm for artist to detect if their music was violating copy right infringement laws</li>
-					<li class="bullet">Successfully won Techcrunch Disrupt</li>
-					<li class="bullet">Optimized an algorithm that holds the current world record for Weisman Scores</li>
-				</ul>
-			</div>
-			</div>
-		</div>
-	</section>
+        <h1>David A. Gifford Jr.</h1>
+        <h2>Software Engineer</h2>
+        <section id="basics">
+            <div class="contact">
+                    <div class="website">
+                        <strong>Website</strong>
+                        http://developmentchaos.com
+                    </div>
+                    <div class="email">
+                        <strong>Email</strong>
+                        david.gifford.jr@gmail.com
+                    </div>
+                    <div class="phone">
+                        <strong>Phone</strong>
+                        (330) 766-0833
+                    </div>
+            </div>
+                <div class="summary">
+                    <p>Software engineer with a passion for leaning new ways to make products better.</p>
+                </div>
+                <h3>Location</h3>
+                <section id="location">
+                        <div class="postalCode">
+                            <strong>Postal code</strong>
+                            OH 44483
+                        </div>
+                        <div class="city">
+                            <strong>City</strong>
+                            Warren
+                        </div>
+                        <div class="countryCode">
+                            <strong>Country code</strong>
+                            US
+                        </div>
+                        <div class="region">
+                            <strong>Region</strong>
+                            Ohio
+                        </div>
+                </section>
+                <h3>Profiles</h3>
+                <section id="profiles">
+                        <div class="item">
+                                <strong class="network">
+                                    Twitter
+                                </strong>
+                                <div class="username">
+                                    DavidGiffordJr
+                                </div>
+                                <div class="url">
+                                    <a href="https://twitter.com/DavidGiffordJr">Link</a>
+                                </div>
+                        </div>
+                        <div class="item">
+                                <strong class="network">
+                                    GitHub
+                                </strong>
+                                <div class="username">
+                                    DavidGiffordJr
+                                </div>
+                                <div class="url">
+                                    <a href="https://github.com/DavidGiffordJr">Link</a>
+                                </div>
+                        </div>
+                </section>
+        </section>
 
-	<section id="volunteer" class="row">
-		<aside class="col-sm-3">
-			<h3>Volunteer</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>CoderDojo</span>
-					<span class="date">
-						2012-01-01 — 2013-01-01
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href="http://coderdojo.com/">http://coderdojo.com/</a>
-				</div>
-				<div class="position">
-					Teacher
-				</div>
-				<div class="summary">
-					<p>Global movement of free coding clubs for young people.</p>
-				</div>
-				<h4>Highlights</h4>
-				<ul class="highlights">
-					<li class="bullet">Awarded &#x27;Teacher of the Month&#x27;</li>
-				</ul>
-			</div>
-			</div>
-		</div>
-	</section>
-	
-	<section id="education" class="row">
-		<aside class="col-sm-3">
-			<h3>Education</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>University of Oklahoma</span>
-					<span class="date">
-						2011-06-01 — 2014-01-01
-					</span>
-				</h4>
-				<div class="area">
-					Information Technology
-				</div>
-				<div class="studyType">
-					Bachelor
-				</div>
-				<h4>Courses</h4>
-				<ul class="courses">
-					<li>DB1101 - Basic SQL</li>
-					<li>CS2011 - Java Introduction</li>
-				</ul>
-			</div>
-			</div>
-		</div>
-	</section>
-	
-	<section id="awards" class="row">
-		<aside class="col-sm-3">
-			<h3>Awards</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Digital Compression Pioneer Award</span>
-				</h4>
-				<div class="date pull-right">
-					<em>Awarded</em>
-					2014-11-01
-				</div>
-				<div class="awarder">
-					<em>by</em>
-					<strong>Techcrunch</strong>
-				</div>
-				<div class="summary">
-					There is no spoon.
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
-	
-	<section id="publications" class="row">
-		<aside class="col-sm-3">
-			<h3>Publications</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Video compression for 3d media</span>
-					<span class="date">
-						2014-10-01
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href="http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"></a>
-				</div>
-				<div class="publisher">
-					<em>Published by</em>
-					<strong>Hooli</strong>
-				</div>
-				<div class="summary">
-					<p>Innovative middle-out compression algorithm that changes the way we store data.</p>
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
-	
-	<section id="skills" class="row">
-		<aside class="col-sm-3">
-			<h3>Skills</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Web Development</h4>
-				</div>
-				<ul class="keywords">
-					<li>HTML</li>
-					<li>CSS</li>
-					<li>Javascript</li>
-				</ul>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Compression</h4>
-				</div>
-				<ul class="keywords">
-					<li>Mpeg</li>
-					<li>MP4</li>
-					<li>GIF</li>
-				</ul>
-			</div>
-			</div>
-		</div>
-	</section>
+        <section id="work">
+            <h2>Work</h2>
+                <div class="item">
+                        <h3 class="name">
+                            Donald P. Pipino Company, LTD
+                        </h3>
+                    <div class="date">
+                            <span class="startDate">
+                                2015-02-09
+                            </span>
+                            <span class="endDate">
+					- Present
+				</span>
+                    </div>
+                        <div class="position">
+                            Software Engineer
+                        </div>
+                        <div class="website">
+                            <a href="http://dpipino.com">http://dpipino.com</a>
+                        </div>
+                        <div class="summary">
+                            <p>Design, develop, and maintain a full range of software applications from ASP.NET and PHP web apps to legacy Windows applications</p>
+                        </div>
+                        <ul class="highlights">
+                                <li>Work with development team to update developer process to streamline the department&#x27;s project flow</li>
+                        </ul>
+                </div>
+                <div class="item">
+                        <h3 class="name">
+                            Empyra.com Inc.
+                        </h3>
+                    <div class="date">
+                            <span class="startDate">
+                                2015-02-09
+                            </span>
+                            <span class="endDate">
+					- 2013-03-11
+				</span>
+                    </div>
+                        <div class="position">
+                            Senior Software Developer / Team Lead
+                        </div>
+                        <div class="website">
+                            <a href="http://empyra.com">http://empyra.com</a>
+                        </div>
+                        <div class="summary">
+                            <p>Design, develop, and maintain a full range of software applications from ASP.NET and PHP web apps to legacy Windows applications</p>
+                        </div>
+                        <ul class="highlights">
+                                <li>Work as a team to build and design new functionality of the OneFlow product</li>
+                                <li>Bring new development technologies to the OneFlow product (e.g. MVC design pattern and WebAPI as a business layer to better structure code base)</li>
+                                <li>Lead team in .NET technologies and mentor junior developers</li>
+                        </ul>
+                </div>
+                <div class="item">
+                        <h3 class="name">
+                            Infocision Management Corporation
+                        </h3>
+                    <div class="date">
+                            <span class="startDate">
+                                2012-10-01
+                            </span>
+                            <span class="endDate">
+					- 2013-03-11
+				</span>
+                    </div>
+                        <div class="position">
+                            Senior Application Developer
+                        </div>
+                        <div class="website">
+                            <a href="http://www.infocision.com/">http://www.infocision.com/</a>
+                        </div>
+                        <div class="summary">
+                            <p>Design, develop, and maintain a full range of software applications from ASP.NET and PHP web apps to legacy Windows applications</p>
+                        </div>
+                        <ul class="highlights">
+                                <li>Work within a team to design cost effective solutions to problems</li>
+                                <li>Act as point of contact for systems and technologies of familiarity to peers</li>
+                                <li>Designed and developed multiple applications to meet the changing needs of the company using C#, jQuery and ASP.NET</li>
+                        </ul>
+                </div>
+                <div class="item">
+                        <h3 class="name">
+                            Infocision Management Corporation
+                        </h3>
+                    <div class="date">
+                            <span class="startDate">
+                                2012-10-01
+                            </span>
+                            <span class="endDate">
+					- 2009-10-01
+				</span>
+                    </div>
+                        <div class="position">
+                            Lead Application Developer
+                        </div>
+                        <div class="website">
+                            <a href="http://www.infocision.com/">http://www.infocision.com/</a>
+                        </div>
+                        <div class="summary">
+                            <p>Design, develop, and maintain a full range of software applications from ASP.NET and PHP web apps to legacy Windows applications</p>
+                        </div>
+                        <ul class="highlights">
+                                <li>Acted as primary support of Verifications/QA department as well as several mission critical operations applications</li>
+                                <li>Worked in a team to develop new system for Quality Assurance department using Silverlight, C# and Entity Framework</li>
+                                <li>Developed enhancements to the Audio Recording Archiving system</li>
+                        </ul>
+                </div>
+                <div class="item">
+                        <h3 class="name">
+                            Infocision Management Corporation
+                        </h3>
+                    <div class="date">
+                            <span class="startDate">
+                                2007-10-01
+                            </span>
+                            <span class="endDate">
+					- 2009-10-01
+				</span>
+                    </div>
+                        <div class="position">
+                            Application Developer I
+                        </div>
+                        <div class="website">
+                            <a href="http://www.infocision.com/">http://www.infocision.com/</a>
+                        </div>
+                        <ul class="highlights">
+                                <li>Worked with Senior level developers to support operations systems in VB.NET, ASP.NET and SQL</li>
+                                <li>Helped design new applications and revisions to existing ones</li>
+                                <li>Worked with a team to support the Verifications/QA department’s software applications</li>
+                                <li>Developed new reporting solutions with SQL Reporting Services to compliment new systems</li>
+                        </ul>
+                </div>
+        </section>
 
-	<section id="languages" class="row">
-		<aside class="col-sm-3">
-			<h3>Languages</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-6">
-				<div class="language">
-					<strong>English</strong>
-				</div>
-				<div class="fluency">
-					Native speaker
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
 
-	<section id="interests" class="row">
-		<aside class="col-sm-3">
-			<h3>Interests</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Wildlife</h4>
-				</div>
-				<ul class="keywords">
-					<li>Ferrets</li>
-					<li>Unicorns</li>
-				</ul>
-			</div>
-			</div>
-		</div>
-	</section>
-	
-	<section id="references" class="row">
-		<aside class="col-sm-3">
-			<h3>References</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<blockquote class="reference">
-					<p>It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company.</p>
-					<p class="name">
-						<strong>— Erlich Bachman</strong>
-					</p>
-				</blockquote>
-			</div>
-			</div>
-		</div>
-	</section>
+        <section id="education">
+            <h2>Education</h2>
+                <div class="item">
+                    <div class="date">
+                            <span class="startDate">
+                                2002-08-01
+                            </span>
+                            <span class="endDate">
+					- 2006-12-01
+				</span>
+                    </div>
+                        <div class="institution">
+                            Youngstown State University
+                        </div>
+                        <div class="area">
+                            Computer Science
+                        </div>
+                        <div class="studyType">
+                            Bachelor
+                        </div>
+                </div>
+        </section>
 
-	</div>
-	
-	</body>
+        <section id="awards">
+            <h2>Awards</h2>
+                <div class="item">
+                        <div class="title">
+                            Eagle Scout
+                        </div>
+                        <div class="date">
+                            2002-01-01
+                        </div>
+                        <div class="awarder">
+                            Boy Scouts of America
+                        </div>
+                </div>
+                <div class="item">
+                        <div class="title">
+                            Employee of the Month
+                        </div>
+                        <div class="date">
+                            2011-06-01
+                        </div>
+                        <div class="awarder">
+                            Infocision
+                        </div>
+                </div>
+        </section>
+
+
+        <section id="skills">
+            <h2>Skills</h2>
+                <div class="item">
+                        <div class="name">
+                            Web Development
+                        </div>
+                        <div class="level">
+                            <em>Master</em>
+                        </div>
+                        <ul class="keywords">
+                                <li>HTML</li>
+                                <li>ASP.NET</li>
+                                <li>Javascript</li>
+                                <li>WCF</li>
+                                <li>SOAP Web Services</li>
+                                <li>jQuery</li>
+                                <li>CSS</li>
+                                <li>PHP</li>
+                                <li>Silverlight</li>
+                                <li>Ajax</li>
+                        </ul>
+                </div>
+                <div class="item">
+                        <div class="name">
+                            Software Development
+                        </div>
+                        <div class="level">
+                            <em>Master</em>
+                        </div>
+                        <ul class="keywords">
+                                <li>C#</li>
+                                <li>VB.NET</li>
+                                <li>Linq</li>
+                                <li>Linq to SQL</li>
+                                <li>Entity Framework</li>
+                                <li>SQL Reporting Services</li>
+                                <li>C++</li>
+                                <li>MSMQ</li>
+                                <li>SQL</li>
+                                <li>TFS</li>
+                                <li>SVN</li>
+                                <li>Git</li>
+                        </ul>
+                </div>
+        </section>
+
+
+        <section id="interests">
+            <h2>Interests</h2>
+                <div class="item">
+                        <div class="name">
+                            Photography
+                        </div>
+                        <ul class="keywords">
+                                <li>Cameras</li>
+                                <li>Art</li>
+                        </ul>
+                </div>
+        </section>
+
+
+</div>
+
+</body>
 </html>

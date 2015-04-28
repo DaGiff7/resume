@@ -2,10 +2,10 @@
   "basics": {
     "name": "David A. Gifford Jr.",
     "label": "Software Engineer",
-    "picture": "",
+    "picture": "https://drive.google.com/file/d/0Bwg3rrU6zY1oZmJxaTlVcWdNeEU/view?usp=sharing",
     "email": "david.gifford.jr@gmail.com",
-    "phone": "(912) 555-4321",
-    "website": "http://richardhendricks.com",
+    "phone": "(330) 766-0833",
+    "website": "http://developmentchaos.com",
     "summary": "Software engineer with a passion for leaning new ways to make products better.",
     "location": {
       "address": "",
@@ -33,7 +33,6 @@
       "position": "Software Engineer",
       "website": "http://dpipino.com",
       "startDate": "2015-02-09",
-      "endDate": "",
       "summary": "Design, develop, and maintain a full range of software applications from ASP.NET and PHP web apps to legacy Windows applications",
       "highlights": [
         "Work with development team to update developer process to streamline the department's project flow"
@@ -47,7 +46,9 @@
       "endDate": "2013-03-11",
       "summary": "Design, develop, and maintain a full range of software applications from ASP.NET and PHP web apps to legacy Windows applications",
       "highlights": [
-        "Work with development team to update developer process to streamline the department's project flow"
+        "Work as a team to build and design new functionality of the OneFlow product",
+        "Bring new development technologies to the OneFlow product (e.g. MVC design pattern and WebAPI as a business layer to better structure code base)",
+        "Lead team in .NET technologies and mentor junior developers"
       ]
     },
     {
@@ -58,7 +59,9 @@
       "endDate": "2013-03-11",
       "summary": "Design, develop, and maintain a full range of software applications from ASP.NET and PHP web apps to legacy Windows applications",
       "highlights": [
-        "Work with development team to update developer process to streamline the department's project flow"
+        "Work within a team to design cost effective solutions to problems",
+        "Act as point of contact for systems and technologies of familiarity to peers",
+        "Designed and developed multiple applications to meet the changing needs of the company using C#, jQuery and ASP.NET"
       ]
     },
     {
@@ -69,7 +72,9 @@
       "endDate": "2009-10-01",
       "summary": "Design, develop, and maintain a full range of software applications from ASP.NET and PHP web apps to legacy Windows applications",
       "highlights": [
-        "Work with development team to update developer process to streamline the department's project flow"
+        "Acted as primary support of Verifications/QA department as well as several mission critical operations applications",
+        "Worked in a team to develop new system for Quality Assurance department using Silverlight, C# and Entity Framework",
+        "Developed enhancements to the Audio Recording Archiving system"
       ]
     },
     {
@@ -78,22 +83,12 @@
       "website": "http://www.infocision.com/",
       "startDate": "2007-10-01",
       "endDate": "2009-10-01",
-      "summary": "Design, develop, and maintain a full range of software applications from ASP.NET and PHP web apps to legacy Windows applications",
+      "summary": "",
       "highlights": [
-        "Work with development team to update developer process to streamline the department's project flow"
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "CoderDojo",
-      "position": "Teacher",
-      "website": "http://coderdojo.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Global movement of free coding clubs for young people.",
-      "highlights": [
-        "Awarded 'Teacher of the Month'"
+        "Worked with Senior level developers to support operations systems in VB.NET, ASP.NET and SQL",
+        "Helped design new applications and revisions to existing ones",
+        "Worked with a team to support the Verifications/QA department’s software applications",
+        "Developed new reporting solutions with SQL Reporting Services to compliment new systems"
       ]
     }
   ],
@@ -109,7 +104,7 @@
   "awards": [
     {
       "title": "Eagle Scout",
-      "date": "2002",
+      "date": "2002-01-01",
       "awarder": "Boy Scouts of America"
     },
     {
@@ -147,17 +142,11 @@
         "SQL Reporting Services",
         "C++",
         "MSMQ",
-        "SQL"
+        "SQL",
         "TFS",
         "SVN",
         "Git"
       ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native speaker"
     }
   ],
   "interests": [

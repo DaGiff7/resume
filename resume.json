@@ -24,6 +24,16 @@
         "network": "GitHub",
         "username": "DavidGiffordJr",
         "url": "https://github.com/DavidGiffordJr"
+      },
+      {
+        "network": "Facebook",
+        "username": "DavidGiffordJr",
+        "url": "https://www.facebook.com/David.Gifford.Jr"
+      },
+      {
+        "network": "Google+",
+        "username": "DavidGiffordJr",
+        "url": "https://plus.google.com/+DavidGiffordJr"
       }
     ]
   },
@@ -44,7 +54,7 @@
       "website": "http://empyra.com",
       "startDate": "2015-02-09",
       "endDate": "2013-03-11",
-      "summary": "Design, develop, and maintain a full range of software applications from ASP.NET and PHP web apps to legacy Windows applications",
+      "summary": "Work with a team to design and develop a web and mobile application. Work with design team and coordinate with other developers as team lead.",
       "highlights": [
         "Work as a team to build and design new functionality of the OneFlow product",
         "Bring new development technologies to the OneFlow product (e.g. MVC design pattern and WebAPI as a business layer to better structure code base)",
@@ -57,7 +67,7 @@
       "website": "http://www.infocision.com/",
       "startDate": "2012-10-01",
       "endDate": "2013-03-11",
-      "summary": "Design, develop, and maintain a full range of software applications from ASP.NET and PHP web apps to legacy Windows applications",
+      "summary": "Work with business units to build and support the software they use for business operations. Work with the IT team as well as the business team to design and implement software that best fits the company.",
       "highlights": [
         "Work within a team to design cost effective solutions to problems",
         "Act as point of contact for systems and technologies of familiarity to peers",
@@ -70,7 +80,7 @@
       "website": "http://www.infocision.com/",
       "startDate": "2012-10-01",
       "endDate": "2009-10-01",
-      "summary": "Design, develop, and maintain a full range of software applications from ASP.NET and PHP web apps to legacy Windows applications",
+      "summary": "Lead support of a core company system. Lead a junior developer in supporting a business department and the software applications they use to operate.",
       "highlights": [
         "Acted as primary support of Verifications/QA department as well as several mission critical operations applications",
         "Worked in a team to develop new system for Quality Assurance department using Silverlight, C# and Entity Framework",
@@ -83,7 +93,7 @@
       "website": "http://www.infocision.com/",
       "startDate": "2007-10-01",
       "endDate": "2009-10-01",
-      "summary": "",
+      "summary": "Work with Senior developers to support and build infrastructure applications.",
       "highlights": [
         "Worked with Senior level developers to support operations systems in VB.NET, ASP.NET and SQL",
         "Helped design new applications and revisions to existing ones",

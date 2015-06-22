@@ -120,7 +120,7 @@
     {
       "title": "Employee of the Month",
       "date": "2011-06-01",
-      "awarder": "Infocision"
+      "awarder": "InfoCision"
     }
   ],
   "skills": [
@@ -133,11 +133,15 @@
         "Javascript",
         "WCF",
         "SOAP Web Services",
+        "RESTful Services",
         "jQuery",
         "CSS",
         "PHP",
         "Silverlight",
-        "Ajax"
+        "Ajax",
+        "Node.JS",
+        "AngularJS",
+        "Express"
       ]
     },
     {
